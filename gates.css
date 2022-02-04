@@ -1,0 +1,236 @@
+.div-portal-1 {
+    background-color: rgba(36, 204, 255, 0.9);
+    float: left;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 189px;
+    height: 20%;
+    margin: 0 0 0em 0em;
+}
+
+.a-navbar-2 {
+    background-color: rgba(36, 204, 255, 0.9);
+}
+
+
+
+/* <p>Copyright © 2010-2021 Sajid Mottar Outaiwi- All rights reserved.</p> */
+
+.div-portal-2 {
+    background-color: rgba(36, 204, 255, 0.9);
+    float: right;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 189px;
+    height: 20%;
+    margin: 0 0 0em 0em;
+}
+
+.gatea {
+    background-color: #fc9700;
+    float: right;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0em 0em;
+}
+
+.gateb {
+    background-color: #fc9700;
+    float: right;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0em 0em;
+}
+
+.gatec {
+    background-color: #fc9700;
+    float: right;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0em 0em;
+}
+
+.gated {
+    background-color: #fc9700;
+    float: right;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0em 0em;
+}
+
+
+/* <p>Copyright © 2010-2021 Sajid Mottar Outaiwi- All rights reserved.</p> */
+
+.gatee {
+    background-color: #fc9700;
+    float: right;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0em 0em;
+}
+
+.gatef {
+    background-color: #fc9700;
+    float: right;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0em 0em;
+}
+
+.gateg {
+    background-color: #fc9700;
+    float: right;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0em 0em;
+}
+
+.p-gate1 {
+    color: #fc9700;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(233, 217, 217), 0 0 25px rgb(17, 17, 87), 0 0 5px rgb(255, 255, 255);
+}
+
+.p-gate2 {
+    color: #210422;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 25px rgb(17, 17, 87), 0 0 5px rgb(255, 255, 255);
+}
+
+.p-gate3 {
+    color: #762c79;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(17, 17, 87), 0 0 5px rgb(255, 255, 255);
+}
+
+.p-gate4 {
+    color: #f2ffb9;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(17, 17, 87), 0 0 5px rgb(255, 255, 255);
+}
+
+
+/* <p>Copyright © 2010-2021 Sajid Mottar Outaiwi- All rights reserved.</p> */
+
+.p-gate5 {
+    color: #ff0000;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(255, 137, 2), 0 0 25px rgb(17, 17, 87), 0 0 5px rgb(255, 255, 255);
+}
+
+.p-gate6 {
+    color: #0077ff;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(255, 253, 253), 0 0 25px rgb(17, 17, 87), 0 0 5px rgb(255, 255, 255);
+}
+
+.p-gate7 {
+    color: #2600cf;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(245, 137, 200), 0 0 25px rgb(17, 17, 87), 0 0 5px rgb(255, 255, 255);
+}
+
+.bg-portal {
+    background-image: repeating-radial-gradient(rgba(236, 71, 71, 0.048), rgba(41, 148, 236, 0.089) 10%, rgba(207, 216, 78, 0.075) 15%);
+    background-size: 100%;
+    float: right;
+    border: 3px solid #ff3f6f;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0em 0em;
+}
+
+.p-portal {
+    font-size: 18px;
+    margin: 40px;
+    padding: 10px;
+    background-color: rgba(39, 58, 230, 0.63);
+    text-shadow: 1px 1px 2px rgb(245, 137, 137), 0 0 25px rgb(17, 17, 87), 0 0 5px rgb(255, 255, 255);
+}
+
+.txt-portal-1 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    color: #51db1a;
+    text-shadow: 2px 1px 2px black, 0 0 25px rgb(209, 67, 42), 0 0 5px rgb(212, 0, 0);
+    lighting-color: rgb(255, 14, 223);
+}
+
+.txt-portal-2 {
+    float: right;
+    height: 50%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    color: #51db1a;
+    text-shadow: 2px 1px 2px black, 0 0 25px rgb(209, 67, 42), 0 0 5px rgb(212, 0, 0);
+}
+
+
+/* <p>Copyright © 2010-2021 Sajid Mottar Outaiwi- All rights reserved.</p> */
+.im-portal-0 {
+    float: right;
+    width: 100%;
+    height: 30em;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(233, 30, 30, 0.822), 0 6px 20px 0 rgba(255, 11, 11, 0.925);
+}
+.im-portal-1 {
+    float: right;
+    width: 50%;
+    height: 3em;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(233, 30, 30, 0.822), 0 6px 20px 0 rgba(255, 11, 11, 0.925);
+}
+
+.im-portal-2 {
+    float: left;
+    width: 50%;
+    height: 3em;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(233, 30, 30, 0.822), 0 6px 20px 0 rgba(255, 11, 11, 0.925);
+}
+
+@media only screen and (max-width: 412px){
+    .div-portal-1 {
+        font-size: 0.9em;
+        float: none;
+        border: 3px solid #ff3f6f;
+        width: 98%;
+        height: 20%;
+        margin: auto;
+    }
+    .div-portal-2 {
+        font-size: 0.9em;
+        float: none;
+        border: 3px solid #ff3f6f;
+        width: 98%;
+        height: 20%;
+        margin: auto;
+    }
+
+}
