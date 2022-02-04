@@ -1,0 +1,629 @@
+*{
+    display:block;
+}
+
+.body-msg {
+    background-image: url("pic/bg-msg.svg");
+    background-size: contain;
+}
+
+.body-comm {
+    background-color: rgba(54, 21, 21, 0.514);
+    background-image: url("pic/bg-comm.png");
+    background-size: contain;
+}
+
+
+#main-msg {
+    background-color: rgb(207, 207, 207);
+}
+
+.msg-border {
+    border: solid 2px rgb(21, 144, 226);
+}
+/* ----------------------------------------------------------------------------------------------- */ 
+.logo {
+color:rgb(156, 99, 61) ;
+text-shadow: 1px 1px 2px rgb(56, 34, 9), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(71, 5, 62);
+display: block;
+text-align:center;
+cursor: move;
+}
+
+
+.logo:hover {
+    transform: rotate( 180deg);
+    transition: width 2s, height 2s, transform 2s;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate( 0deg);
+        right: 0px;
+    }
+    25% {
+        transform: rotate( 0deg);
+        left: 0px;
+    }
+    50% {
+        transform: rotate( 0deg);
+        left: 500px;
+    }
+    55% {
+        transform: rotate( 0deg);
+        left: 500px;
+    }
+    70% {
+        transform: rotate( 0deg);
+        left: 500px;
+        background: #1ec7e6;
+    }
+    100% {
+        transform: rotate( -360deg);
+        left: 0px;
+    }
+}
+
+
+.hr1{
+    display: block;
+}
+/* ----------------------------------------------------------------------------------------------- */ 
+.div1 {
+    color: rgb(240, 226, 247);
+    border: 10px solid rgb(150, 106, 127) ;
+    display: block;
+}
+/* ----------------------------------------------------------------------------------------------- */ 
+.img-prof {
+    width: 54%;
+    margin: 0.5em;
+    border: ridge 1em  rgba(78, 11, 109, 0.644);
+}
+.icn-sett {
+    color: rgb(16, 107, 92);
+    background-color: rgb(34, 20, 48);
+    border: ridge 5px rgba(41, 54, 112, 0.514);
+}
+
+.text1 {
+    color: rgba(70, 217, 236, 0.685);
+    text-decoration:none ;
+    font-size: 14px;
+    
+    font-weight: 900;
+    font-style:normal;
+    
+}
+.texta {
+    color: rgba(23, 126, 139, 0.904);
+    text-decoration:none ;
+    font-size: 14px;
+    
+    font-weight: 900;
+    font-style:normal;
+}
+.texta:hover {
+    color: rgb(55, 162, 204);
+    width: 72px;
+    text-shadow: 1em 1em 1em rgb(255, 0, 0),1em 1em 1em rgb(143, 123, 255);
+    margin: auto;
+}
+
+
+#text1 {
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+.text1:hover {
+    color: rgb(255, 255, 255);
+    
+    width: 72px;
+    text-shadow: 1em 1em 1em rgb(255, 255, 255),1em 1em 1em rgb(143, 123, 255);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.text1:active {
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+
+    text-decoration:none ;
+    font-size: 14px;
+    
+    font-weight: 900;
+    font-style:normal;
+}
+
+.line1 {
+    background-color: 00331F1Fh;
+    color: rgba(9, 19, 109, 0.699);
+    width: 81%;
+    height: 3px;
+    border:ridge 2px rgb(78, 11, 109) ;
+}
+
+.line2{
+    color: rgb(61, 30, 173);
+    background-color: rgb(195, 242, 250);
+    width: 81%;
+    height: 4.41px;
+    border:ridge 2px rgb(195, 242, 250) ;
+}
+/* ----------------------------------------------------------------------------------------------- */ 
+
+.sec1 {
+    border: 3px solid rgb(159, 159, 248) ;
+    background-color: rgb(44, 57, 75);
+    width: 9%;
+    float: left;
+    height: 33.99em;  
+    box-shadow: 2px 3px 7px rgb(118, 118, 118);   
+}
+
+.sec2 {
+width: 14% ;
+
+margin: 0px;
+
+box-shadow: 2px 3px 7px rgb(118, 118, 118);
+
+text-align: center;
+float:left;
+display: block;
+background-color: rgb(216, 143, 178);
+cursor:pointer;
+}
+
+.pro-user{
+    width: 10.8em;
+    height: 2.77891em;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(41, 41, 77, 0.808);
+    text-shadow: 0px 3px 3px rgb(5, 5, 5);
+    border-radius: 20px;
+    color: rgba(80, 117, 187, 0.87);
+}
+.pro-user:hover{
+    width: 9.8em;
+    height: 3em; 
+
+    background-color: rgba(100, 100, 143, 0.87);
+    text-shadow: 0px 2px 2px rgb(80, 71, 71);
+    border-radius: 20px;
+    color: rgb(15, 40, 87);
+}
+.pro-user:active{
+    background-color: rgba(67, 67, 117, 0.945);
+    text-shadow: 0px 2px 2px rgb(51, 29, 29);
+    border-radius: 20px;
+    color: cyan;
+}
+
+.sec3 {
+    border: 9px solid rgba(177, 171, 177, 0.767) ;
+    text-align: right ;
+    position:static;
+    display:flex;
+    font-size: 1.2em;
+    font-family: -apple-system;
+    font-style: oblique;
+    flex-direction: column;
+    box-shadow: 2px 3px 7px rgb(118, 118, 118); 
+}
+
+.sec4 {
+    width: 24% ;
+    border: 9px solid rgba(177, 171, 177, 0.767) ;
+    text-align: center;
+    float:left;
+    height: 33.2em;
+    background-color: rgb(216, 143, 178);
+    box-shadow: 2px 3px 7px rgb(118, 118, 118); 
+}
+
+.sec5 {
+    width: 5% ;
+    border: 9px solid rgba(177, 171, 177, 0.767) ;
+    text-align: center;
+    float:right;
+    border: 3px solid rgb(159, 159, 248) ;
+    background-color: rgb(44, 57, 75);
+    width: 15%;
+    float: left;
+    height: 33.99em; 
+    box-shadow: 2px 3px 7px rgb(118, 118, 118); 
+}
+/* ----------------------------------------------------------------------------------------------- */ 
+.msg1{
+    color: rgb(190, 190, 189);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(3, 3, 3), 0 0 5px rgb(27, 27, 27);
+    background-color: rgb(31, 31, 51);
+    border: solid 0.1em rgb(150, 106, 127);
+    border-radius: 0.3em;
+    width: 86.4%;
+    height: 1.66em;
+    display:block; 
+    
+    float:inline-end; 
+    position:fixed;
+    display:block;
+    font-size: 1.2em;
+    font-family: -apple-system;
+    
+    top: 2%;
+    right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 2px 4px rgba(54, 21, 21, 0.514);
+}
+.btn1{
+    color: rgb(31, 31, 51);;
+    background-color: rgb(13, 105, 13);
+    border:dashed 0.1em rgb(90, 90, 240);
+    border-radius: 0.3em;
+    border-bottom:groove;
+    width: 3em;
+    height: 1.7em;
+    display:block;
+    font-size: 1.2em;
+    font-family: -apple-system;
+
+    top: 2%;
+    right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+
+    cursor: pointer;
+}
+.btn1:hover {
+        color: rgba(255, 255, 255, 0.39);;
+        background-color: rgb(15, 136, 15);
+        border:dashed 0.1em rgb(240, 90, 190);
+
+}
+
+.btn1:active {
+    color: rgb(245, 30, 30);;
+    background-color: rgb(12, 44, 70);
+    border: dotted 0.1em rgb(255, 3, 3);
+}
+
+#delete {
+ display: none;
+}
+
+#msg2 {
+display:block;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */ 
+
+input {
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: 1px solid rgba(219, 192, 132, 0.836);
+    font-style:oblique ;
+    font-variant-ligatures:initial ;
+    font-variant-caps:titling-caps ;
+    font-variant-numeric:stacked-fractions ;
+    font-variant-east-asian:simplified ;
+    font-weight:800 ;
+    font-stretch:semi-expanded ;
+    font-size:23px ;
+    font-family:monospace ;
+    text-rendering: auto;
+    color: -internal-light-dark(rgb(56, 231, 208), white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display:block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: auto;
+    padding: 3px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.border-in {
+    background-color: rgba(29, 151, 76, 0.568);
+    border-radius: 9px;
+    border:3px solid rgba(126, 107, 161, 0.534);
+
+}
+
+/* ----------------------------------------------------------------------------------------------- */ 
+
+.pro-b {
+    background-color: rgba(77, 255, 255, 0.281);
+    }
+
+.pro-h {
+    border-radius: 9px;
+    border-style: groove;
+    border-width: 3px;
+    border-color: rgb(55, 162, 204);
+    width: 50%;
+    height: 12em;
+    margin: auto;
+
+    background-color: rgba(137, 137, 199, 0.37); 
+    box-shadow:3px 7px 5px rgba(23, 62, 238, 0.863), -3px 7px 5px rgb(80, 27, 27) ;
+}
+
+
+
+.pro-s1 {
+    border-radius: 9px;
+    border-style: groove;
+    border-width: 3px;
+    border-color: rgb(55, 162, 204);
+    width: 50%;
+    height: 5em;
+    margin: auto;
+
+    background-color: rgba(137, 137, 199, 0.37);
+}
+.pro-n{
+    font-size: 24px;
+    font-family:  Ubuntu;
+    font-style :inherit;
+    font-weight:800;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255), 3px 2px 2px rgba(55, 55, 231, 0.719), 3px 2px 2px rgb(51, 65, 38);
+    color: rgba(33, 58, 167, 0.788);
+    background-color: rgba(137, 137, 199, 0.37);
+}
+
+.pro-bio {
+    font-size: 12px;
+    font-family:  Ubuntu;
+    font-style :inherit;
+    font-weight:80;
+    text-shadow:  1px 1px 1px rgba(16, 38, 134, 0.562), 1px 1px 1px rgb(0, 68, 255);
+    color: rgba(104, 113, 151, 0.788);
+}
+.pro-area{
+    width: 97%;
+    height: 93%;
+    display: none;
+
+    background-color: rgba(137, 137, 199, 0.37);
+}
+
+.pro-m{
+    border-radius: 9px;
+    border-style: groove;
+    border-width: 3px;
+    border-color: rgb(55, 162, 204);
+    width: 33%;
+    height: 18em;
+    margin: auto;
+
+    background-color: rgba(137, 137, 199, 0.37);
+    box-shadow:3px 7px 5px rgba(23, 62, 238, 0.863), -3px 7px 5px rgb(80, 27, 27) ;
+}
+.pro-d{
+    border-radius: 360px;
+    border-style: groove;
+    border-width: 9px;
+    border-color: rgb(55, 162, 204);
+    width: 45%;
+    height: 12em;
+    margin: auto;
+
+    background-color: rgba(214, 172, 108, 0.815);
+}
+
+.pro-coll-l {
+    width: 300px;
+    height: 3em;
+
+  left: 3%;
+  float: left;
+  border: solid 0.01px rgb(55, 162, 204);
+  box-shadow: -1px 2px 2px rgb(69, 100, 238), 1px 2px 2px rgba(5, 30, 170, 0.842) ;
+  background-color: rgba(0, 68, 255, 0.432);
+}
+.pro-coll-r {
+    width: 300px;
+    height: 3em;
+
+    right: 3%;
+    float: right;
+    border: solid 0.01px rgb(55, 162, 204);
+    box-shadow: -1px 2px 2px rgb(69, 100, 238), 1px 2px 2px rgba(5, 30, 170, 0.842) ;
+    background-color: rgba(0, 68, 255, 0.432);
+}
+
+.about {
+    border-radius: 18px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border: 2px solid  rgb(216, 143, 178);
+    box-shadow: 2px 3px 2px rgba(209, 114, 114, 0.808), -2px 3px 2px rgba(201, 13, 13, 0.822);
+}
+.active, .coll:hover {
+    background-color: rgba(54, 21, 21, 0.514);
+}
+  .coll {
+    color: whitesmoke;
+    background-color: rgba(54, 21, 21, 0.514);
+    cursor: pointer;
+    padding: 18px;
+    width: 98%;
+    height: 98%;
+    border: 3px solid rgb(160, 189, 233);
+    outline: none;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+}
+.coll:hover{
+    background-color: rgb(216, 143, 178);
+    
+}
+.coll:active{
+   background-color: rgb(255, 0, 0);
+}
+.coll-t {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 1px -1px 1px rgb(248, 248, 248), 1px 1px 1px rgb(77, 106, 238);
+}
+.pro-text {
+    background-color: rgb(216, 143, 178);
+    color: snow;
+    text-shadow: 2px 2px 2px rgba(11, 137, 221, 0.822), 2px 2px 2px rgb(0, 0, 0);
+}
+
+.pro-bac {
+    color: rgba(41, 54, 112, 0.514);
+    width: 3em;
+    height: 3em;
+    float: left;
+    text-decoration: none;
+    border:dashed rgb(216, 143, 178);
+    border-top: ridge rgb(226, 156, 50);
+    border-bottom: ridge rgb(226, 156, 50);
+    background-color: rgba(77, 255, 255, 0);
+    cursor: pointer;
+}
+
+.pro-bac:hover{
+    background-color: rgb(97 218 251);
+    color: rgb(255, 255, 255);
+}
+
+.pro-bac:active {
+    background-color: rgb(97 218 251);
+    color: rgb(218, 45, 45);
+}
+
+#propic {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(31, 89, 105);
+}
+
+#proimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.pro-cov {
+    border: ridge 0.2em rgb(133, 13, 13);
+    background-color: 00CBA2ACh;
+    width: 30%;
+    border-radius: 101px;
+    box-shadow: 0em 3em 1em rgb(13, 128, 148);
+}
+
+.pro-bg{
+    background-color: rgba(13, 88, 187, 0.404);
+    
+}
+
+.sign-sub {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+    padding: 10px;
+    color: honeydew;
+    background-color: rgba(197, 154, 13, 0.322);
+}
+.sign-sub:active{
+    color: rgb(207, 247, 207);
+    background-color: rgba(192, 152, 22, 0.767);
+}
+
+.pro-reload {
+    width: 14.4em;
+    height: 1.2em;
+
+    border: 3px solid  rgba(13, 88, 187, 0.404);
+    outline: solid 9px rgba(197, 154, 13, 0.322);
+    padding: 2px;
+}
+
+.fed-body {
+    background-color: rgba(20, 39, 54, 0.925);
+    font-family: 'Cairo', sans-serif;
+    color: gold;
+}
+
+.fed-main {
+    width: 54em;
+    height: 36em;
+    margin: auto;
+    text-align: center;
+    max-width: 72em;
+    background-color: rgb(24, 117, 81);
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px firebrick;
+}
+
+.fed-form {
+    margin: 18px;
+}
+.fed-send {
+    width:63px ;
+    height: 54px;
+    border-radius: 30px;
+    float: right;
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    cursor: pointer;
+
+    color:honeydew;
+    background-color: gold;
+}
+.fed-send:active{
+    color:rgb(212, 66, 4);
+    background-color: rgb(21, 61, 26);
+}
+.fed-back {
+    width: 63px;
+    height: 63px;
+
+    float: left;
+    color: grey;
+    background-color: honeydew;
+    border-radius: 30px;
+    border:solid 1px rgb(137, 211, 137);
+}
+.fed-back:hover{
+    color: rgb(105, 57, 57);
+    background-color: rgb(195, 238, 195);
+}
+.fed-back:active{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 255, 0);
+    border:ridge 5px  red;
+}
+.fed-opt{
+    width: 90px;
+    height: 36px;
+
+    
+    color: rgb(48, 130, 207);
+    background-color: rgba(236, 226, 164, 0.849);
+    border-radius: 11px;
+    border:solid 1px rgb(137, 211, 137);
+}
