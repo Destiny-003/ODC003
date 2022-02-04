@@ -107,6 +107,10 @@ a {
     text-decoration: none;
     
 }
+em {
+    font-size: 0.81em;
+}
+
 
 img {
     cursor: pointer;
@@ -230,10 +234,7 @@ h2 {
     color: #ff009d;
 }
 
-.a-navbar-0 {
-    color: rgba(36, 204, 255, 0.9);
-   
-}
+
 
 .selector-for-some-widget {
     box-sizing: content-box
@@ -251,6 +252,7 @@ h2 {
     float: right;
     align-self: center;
     height: 40px;
+    margin-top: 0.3em;
 }
 
 .form-input {
@@ -319,6 +321,7 @@ input {
     align-content: center; 
     width: 98%;
     font-family: 'Times New Roman', Times, serif;
+    padding: 0em 0em;
 
 }
 
@@ -333,8 +336,19 @@ input {
     text-decoration: none;
     font-size: 17px;
     margin: 0px;
+    
 }
+
 /* Copyright © 2010-2021 Sajid Mottar Outaiwi- All rights reserved. */
+.img-logo{
+
+     width: 30px;
+}
+.a-img-logo {
+    margin-top: 0.1em;
+    padding: 0.1em  0.1em;
+     margin-right: 0.3em;
+}
 
 
 /* Add a color to the active/current link */
@@ -664,11 +678,11 @@ img {
     .control-search {
         float: left;
         font-size: 0.3em;
-        height: 5em;
+        height: 4.5em;
         width: 14em;
         margin: 0em;
         padding: 0em;
-
+       
     }
     .btn-search {
         float: left;
@@ -677,20 +691,13 @@ img {
         font-size: 0.7em;
         width: 3em;
         height: 2em;
+        top: 10em;
     }
 
     .active {
         padding:0em 0em;
     }
-    .a-navbar-0 {
-        width: 2em;
-       
-    }
-    .img-logo {
-        width: 1em;
-        height: 1em;
-        padding: 0em 0em;
-    }
+
     .div-sign-in {
         width: 98%;
     } 
@@ -724,7 +731,17 @@ img {
     .text {
         font-size: 0.9em;
     }
-    
-    
+    tbody {
+        font-size: 0.7em;
+    }
+    .img-logo{
+
+        width: 15px;
+   }
+   .a-img-logo {
+       margin-top: 0.1em;
+       padding: 0.1em  0.1em;
+        margin-right: 0.3em;
+   }
 
 }
