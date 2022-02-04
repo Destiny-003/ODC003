@@ -1,0 +1,122 @@
+/* *{
+    background-color: black;
+} */
+
+body {
+     background-color: #abb3b4;
+}
+header {
+    width: 98.82%;
+    height: 7em;
+    background-color: #201420;
+    border: 0.5em solid #270425;
+    margin: auto;
+}
+.home {
+    color: #ada585;
+    margin: auto;
+    margin-left: 36.4em;
+    margin-right: 36.4em;
+    width: 25em;
+    height: 2em;
+    background-color: #21271d8f;
+    border-radius: 0.9em;
+    font-family: 'Cairo', sans-serif;
+}
+.logo {
+    color: #ffffff;
+    background-color: #996696;
+    text-shadow:3px 3px 2px black;
+    width: 14em;
+    height: 1.8em;
+    margin: auto;
+    border: black;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-weight: 100;
+    outline: solid 0.1em #494b45;
+    
+}
+.sec1 {
+    width: 10%;
+    height: 50em;
+    background-color: #1d031c;
+    border: 0.3em solid #302e24;
+    margin: auto;
+    float: right;
+}
+.sec2 {
+    width: 10%;
+    height: 50em;
+    background-color: #1d031c;
+    border: 0.3em solid #2e2c23;
+    margin: auto;
+    float: left;
+}
+
+   .triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #864f83;
+    float: left;
+   }
+
+   .triangle2:hover {
+    border-left: 1.4em solid transparent;
+	border-right: 1.4em solid transparent;
+    border-bottom: 2.8em solid #c7c7c7;
+}
+
+   .triangle4 {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #864f83;
+    float: right;
+   }
+
+   .triangle4:hover {
+    border-left: 1.4em solid transparent;
+	border-right: 1.4em solid transparent;
+    border-bottom: 2.8em solid #c7c7c7;
+}
+
+   input {
+       margin: auto;
+       margin-left: 1.8em;
+       margin-right: 1.8em;
+       width: 66em;
+       height: 2em;
+       border:ridge 0.1em #7c6e7b;
+       background-color: #a1a1a1;
+       border-radius: 0.3em;
+       font-family: 'Cairo', sans-serif;
+   }
+
+   .send {
+       color: #ada585;
+    margin: auto;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 1em;
+    width: 30em;
+    height: 2em;
+    background-color: #21271d8f;
+    border-radius: 0.9em;
+    font-family: 'Cairo', sans-serif;
+   }
+   .post1 {
+    background-color: #020607;
+    width: 75%;
+    height: 20em;
+    float: left;
+    margin: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 0.3em solid #5f5244;
+    margin-top: 1.8em;
+   }
