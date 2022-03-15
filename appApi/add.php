@@ -6,9 +6,9 @@
     header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
     if(isset($_POST['msg']) && ($_POST['user']) ){
-    $username = "epiz_31065689";
-    $password = "skHFVFf6PCFmpNz";
-    $database = new  PDO("mysql:host=sql105.epizy.com; dbname=epiz_31065689_MainDB;charset=latin1;", $username, $password);
+    $username = "sql11479227";
+    $password = "QWBWkbTlBC";
+    $database = new  PDO("mysql:host=sql11.freemysqlhosting.net; dbname=sql11479227;charset=latin1;", $username, $password);
 
         $addData = $database->prepare("INSERT INTO roozchat(messages,user) VALUES(:msg,:user)");
 
