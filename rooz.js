@@ -183,11 +183,11 @@ document.body.onload =()=>{
     }
     user.value = localStorage.getItem("user");
 }
+
+       setInterval(()=>{
 let user = document.getElementById("user");
 localStorage.setItem("user", user.value);
 user.value = localStorage.getItem("user");
-       setInterval(()=>{
-    user.value = localStorage.getItem("user");
 });
   
 
