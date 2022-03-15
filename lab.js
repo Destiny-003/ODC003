@@ -2,7 +2,7 @@
 
 
 setInterval(()=>{
-    fetch("http://destinyc.rf.gd/appApi/read.php").then(response => response.json())
+    fetch("appApi/read.php").then(response => response.json())
     .then(data=>{
         data.reverse();
         let main = document.getElementById("content");
