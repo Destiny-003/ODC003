@@ -181,16 +181,16 @@ document.body.onload =()=>{
     if (localStorage.getItem("color") == "mary") {
         mary();
     }
-    user.value = localStorage.getItem("user");
+     user.value = localStorage.getItem("user");
 }
 
 
-
-  setInterval(()=>{
-let user = document.getElementById("user");
 user.value = localStorage.getItem("user");
-localStorage.setItem("user", user.value);
-  });
+       setInterval(()=>{
+    let user = document.getElementById("user");
+    localStorage.setItem("user", user.value);
+    user.value = localStorage.getItem("user");
+});
 
 let postForm = document.getElementById("postForm");
 postForm.onsubmit = (form)=>{
