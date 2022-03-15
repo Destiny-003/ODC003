@@ -185,11 +185,12 @@ document.body.onload =()=>{
 }
 
 
+
+  setInterval(()=>{
 let user = document.getElementById("user");
 user.value = localStorage.getItem("user");
-
 localStorage.setItem("user", user.value);
-  
+  });
 
 let postForm = document.getElementById("postForm");
 postForm.onsubmit = (form)=>{
