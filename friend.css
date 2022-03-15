@@ -1,0 +1,698 @@
+#f-body {
+    background-color: rgb(201, 152, 46);
+}
+#user{
+    position: fixed;
+    top: 10%;
+    left: 20.1%;
+    width: 5em;
+    background-color: aliceblue;
+    color: blue;
+    border: none;
+    text-align: center;
+    direction:rtl;
+    border-radius: 30%;
+}
+button{
+    cursor: pointer;
+}
+.center{
+    margin: auto;
+    text-align: center;
+}
+.t-right{
+    text-align: right;
+    direction: rtl;
+}
+.m-top{
+    margin-top: 1em;
+}
+.circle-l{
+    width: 18%;
+    height: 14em;
+    background-color: black;
+    border-right:0.9em groove rgb(141, 120, 79);
+    border-bottom:0.9em groove rgb(117, 102, 74);
+    border-top:0.9em solid rgb(46, 23, 10);
+    border-left:0.9em groove rgb(71, 35, 15);
+    border-radius: 50%;
+    position: fixed;
+    right: 30.5%;
+    top: 30%;
+}
+
+.circle-r{
+    width: 18%;
+    height: 14em;
+    background-color: black;
+    border-right:0.9em groove rgb(46, 23, 10) ;
+    border-top:0.9em solid rgb(46, 23, 10);
+    border-left:0.9em groove rgb(100, 85, 56);
+    border-bottom:0.9em solid rgb(68, 36, 17);
+    border-radius: 50%;
+    position: fixed;
+    left: 30.5%;
+    top: 30%;
+}
+.circle-t{
+    width: 18%;
+    height: 2em;
+    background-color: rgb(0, 0, 0);
+    border: 0.2em groove rgba(39, 20, 9, 0.829);
+    border-top: none;
+    border-radius:25% 50% 45% 45%;
+    float: right;
+    margin-right: 3.6em;
+}
+.circle-b{
+    width: 18%;
+    height: 2em;
+    background-color: rgb(0, 0, 0);
+    border: 0.2em groove rgba(39, 20, 9, 0.829);
+    border-bottom: none;
+    border-radius:45% 50% 25% 45%;
+    float: left;
+    margin-top: 11.5em;
+    margin-left: 2.3em;
+
+}
+.square{
+    width: 7%;
+    height: 2em;
+    background-color: rgb(0, 0, 0);
+    border: 0.2em groove rgba(46, 22, 8, 0.753);
+    border-right: none;
+    border-radius:25% 50% 25% 25%;
+    float: right;
+    margin-top: 2em;
+    margin-left: 4em;
+}
+.circle-D{
+    width: 7%;
+    height: 2em;
+    background-color: rgb(0, 0, 0);
+    border: 0.2em groove rgba(37, 18, 7, 0.747);
+    border-bottom: none;
+    border-right: none;
+    border-radius:50% 50% 60% 25%;
+    float: right;
+    margin-top: 2em;
+    margin-left: 3.4em;
+}
+.s-circle{
+    width: 90%;
+    height: 12em;
+    background-image: url("../../Pics/Galaxy.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.sl{
+    background-image: url("../../Pics/solar-system.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.Neptune{
+    width: 2.7em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-image: radial-gradient(rgb(163, 255, 247) 10%, rgb(124, 255, 248) 20%, rgb(0, 140, 255) 50%);
+   margin-left: 7em;
+   margin-top: 1em;
+   cursor: pointer;
+}
+.Uranus{
+    width: 2.3em;
+    height: 2.3em;
+    border-radius: 50%;
+    background-image: radial-gradient(rgb(106, 136, 201) 30%, rgb(15, 59, 255) 90%, rgb(91, 181, 255) 10%);
+    float: right;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.Saturn{
+    width: 2.9em;
+    height: 2.9em;
+    border-radius: 50%;
+    background-image: radial-gradient(rgb(216, 200, 200) 10%, rgb(176, 199, 198) 60%, rgb(160, 155, 128) 10%);
+    float: left;
+    margin-top: 3em;
+    cursor: pointer;
+}
+.arch{
+    width: 3em;
+    height: 3em;
+    border: 0.3em solid rgb(160, 155, 128);
+    border-top: none;
+    border-left: none;
+    border-radius: 50%;
+    position: fixed;
+    left: 57%;
+    top: 55.8%;
+    cursor: pointer;
+}
+/* _______________________________________________________ */
+
+.ro-body{
+    background-color: rgb(163, 255, 247);
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+.ro-menu{
+    width: 100%;
+    float: left;
+}
+.ro-main{
+    width: 84%;
+    height: 40.3em;
+    background-color: rgb(0, 140, 255);
+    float: left;
+    border-radius: 0em 1em 1em 0em;
+}
+.users{
+    width: 90%;
+    height: 5em;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 30% 0% 30% 0%;
+    margin: auto;
+}
+.users:hover{
+    background-color: rgba(91, 197, 201, 0.301);
+}
+.users:active{
+    width: 89%;
+    height: 4.8em;
+    background-color: rgba(248, 230, 129, 0.568);
+}
+.ro-users{
+    width: 13%;
+    height: 38.1em;
+    background-color:rgb(124, 255, 248);
+    border: 1.1em solid rgb(0, 140, 255);
+    float: left;
+    border-radius: 1em 0em 0em 1em
+}
+.logo{
+    padding: 1em;
+    color: aliceblue;
+    margin-top: 0.3%;
+    margin-left: 1.8em;
+    margin-bottom: 0%;
+}
+.online{
+    color: rgb(51, 216, 202);
+    margin-left: 1em;
+    position:absolute;
+    margin-top: 0%;
+}
+
+.ro-lab{
+    width: 87%;
+    height: 31em;
+    background-color: azure;
+    border-radius: 3%;
+}
+.ro-type{
+    background-color: azure;
+    font-size: 1.2em;
+    width: 67.5%;
+    height: 1.8em;
+    border-radius: 1em;
+    margin-top: 0%;
+    direction: rtl;
+    padding: 0em .9em;
+}
+.ro-send{
+    font-size: 1em;
+    width: 5%;
+    height: 2.7em;
+    border-radius: 1em;
+    background-color: rgb(0, 140, 255);
+    text-shadow: 0.01em 0.01em 0.07em black, 0.01em -0.01em 0.07em black;
+}
+.ro-send:hover{
+    font-size: 0.9em;
+    width: 4.8%;
+    background-color: rgb(62, 159, 238);
+    text-shadow: 0.01em 0.01em 0.07em black, 0.01em -0.01em 0.07em black;
+}
+.ro-set{
+    width: 11.1%;
+    height: 34em;
+    float:right;
+    background-color:azure;
+    margin-right: 1em;
+    border-radius: 21%;
+}
+.set{
+    margin-top: 0.642em;
+    margin-left: 2.3em;
+    width: 50%;
+    height: 3em;
+    border-radius: 50% 0% 50% 0%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 140, 255);
+    text-shadow: 0.01em 0.01em 0.07em black, 0.01em -0.01em 0.07em black;
+}
+.set:hover{
+    width: 48%;
+    height: 3.2em;
+    border-radius: 50% 0% 50% 0%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 140, 255);
+    text-shadow: 0.01em 0.01em 0.07em black, 0.01em -0.01em 0.07em black;
+}
+.message{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    direction: rtl;
+   padding:0.3em 0.5em;
+}
+.bg-msg{
+    width: auto;
+    background-color:rgba(26, 9, 17, 0.37);
+    margin-right: 9em;
+    margin-left: 27em;
+    border-radius: 1em;
+}
+.ro-theme{
+    display: none;
+    text-align: center;
+    width: 12em;
+    background-color: rgb(30, 123, 210);
+    position: fixed;
+    top: 36%;
+    right: 12%;
+    border-radius: 1em;
+}
+.ro-color{
+    color: chocolate;
+    text-shadow: 0.01em 0.01em 0.01em black,0.01em -0.01em 0.01em black;
+    cursor: pointer;
+}
+.ro-color:hover{
+    color: aliceblue;
+    background-color: chocolate;
+}
+/* ______________________________________________________ */
+.f-body{
+    background-color: rgb(247, 203, 108);
+    font-family: 'Noto Sans Arabic', sans-seri
+}
+.f-logo{
+    color: rgb(247, 203, 108);
+    text-shadow: 0.03em 0.03em 0em rgba(0, 0, 0, 0.356), -0.03em 0.03em 0em rgb(255, 170, 0), -0.03em -0.03em 0em rgba(100, 79, 35, 0.548), 0.03em -0.03em 0em rgb(255, 170, 0);
+    text-align: right;
+    margin-right: 5em;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.f-sec-l{
+    width: 27%;
+    height: 36.1em;
+    background-color: rgb(233, 132, 0);
+    border-radius: 1em 0em 0em 1em;
+    border-right: 1.45em solid rgb(194, 148, 129);
+    float: left;
+    margin-left: 3em;
+}
+.f-sec-r{
+    width: 63%;
+
+    background-color: rgb(138, 92, 74);
+    border-radius: 0em 1em 0em 0em;
+    float: left;
+}
+.f-sec-b{
+    width: 63%;
+    height: 0.45em;
+    background-color: rgb(194, 148, 129);
+    border-top: 1.45em groove rgb(138, 92, 74);
+    border-radius: 0em 0em 1em 0em;
+    position: fixed;
+    top: 95.1%;
+    left: 32.4%;
+}
+.f-go{
+    color: blue;
+    background-color: aliceblue;
+    width: 30%;
+    height: 3em;
+    border-radius: 30% 30% 30% 30%;
+    margin-top: .9em;
+    margin-left: 0.3em;
+}
+.f-go:hover{
+    color: aliceblue;
+    background-color: blue;
+    width: 29%;
+    height: 2.9em;
+
+}
+.f-line{
+    height: 1em;
+    background-color: rgb(194, 148, 129);
+    border: none;
+}
+.f-title{
+    color: rgb(247, 203, 108);
+    text-shadow: 0.03em 0.03em 0em rgba(0, 0, 0, 0.363), -0.03em 0.03em 0em rgb(255, 170, 0), -0.03em -0.03em 0em rgba(100, 79, 35, 0.733), 0.03em -0.03em 0em rgb(255, 170, 0);
+    border-bottom: .1em solid sienna;
+}
+.f-content{
+    width: 90%;
+    height: 11em;
+    background-color: aliceblue;
+    margin: auto;
+}
+.f-type{
+    font-size: large;
+    width: 50%;
+    height: 1.2em;
+    margin-left: 11.691em;
+    margin-top: .3em;
+    border: none;
+    border-radius: .3em;
+}
+.f-board{
+    display: none;
+    width: 50%;
+    height: 14em;
+    background-color: rgba(0, 130, 216, 0.527);
+    margin: auto;
+    border-radius: 1em;
+}
+.type{
+    font-size: large;
+    width: 90%;
+    height: 12em;
+    direction: rtl;
+    float: right;
+    margin-top: 1em;
+    margin-right: 0.3em;
+    border-radius: 1em;
+}
+.post{
+    color: blue;
+    background-color: aliceblue;
+    width: 2.3em;
+    height: 3em;
+    margin-top: 13.05em;
+    border-radius: 3em;
+}
+.post:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+/* ---------------------------------------------------- */
+.s-body{
+    background-color: rgb(216, 200, 200);
+}
+.s-shape{
+    width: 18%;
+    height: 7em;
+    cursor: pointer;
+    background-image: radial-gradient( rgba(176, 199, 198, 0.267) 10%, rgb(142, 255, 249) 30%, rgba(176, 199, 198, 0.849) 70%);
+    margin-left: 14em;
+    margin-top: 7em;
+    border:groove .3em rgb(160, 155, 128);
+    border-radius: 36% 63% 36% 63%;
+    float: left;
+}
+.sh1, .sh2{
+    margin-left: 3em;
+    background-image: radial-gradient( rgba(176, 199, 198, 0.267) 10%, rgb(176, 199, 198) 30%, rgba(32, 131, 126, 0.849) 70%);
+}
+.sh2{
+    background-image: radial-gradient( rgba(64, 255, 245, 0.267) 10%, rgb(39, 82, 79) 30%, rgba(176, 199, 198, 0.849) 70%);
+}
+.s-shape:hover{
+    transform: rotateY(-90deg);
+    transform: rotateY(-180deg);
+    transform: rotateY(-270deg);
+    transform: rotateY(-360deg);
+
+    transition: 5s;
+}
+.sh1:hover{
+    transform: rotateX(-90deg);
+    transform: rotateX(-180deg);
+    transform: rotateX(-270deg);
+    transform: rotateX(-360deg);
+
+    transition: 5s;
+}
+.sh1:hover{
+    transform: rotateZ(-90deg);
+    transform: rotateZ(-180deg);
+    transform: rotateZ(-270deg);
+    transform: rotateZ(-360deg);
+
+    transition: 5s;
+}
+.s-shape:active{
+    background-image: radial-gradient( rgba(255, 0, 0, 0.267) 10%, rgb(17, 0, 255) 30%, rgba(176, 199, 198, 0.849) 70%);
+}
+.s-title{
+    width: 18%;
+    height: 7em;
+    cursor: pointer;
+    background-image: radial-gradient( rgba(176, 199, 198, 0.267) 10%, rgb(142, 255, 249) 30%, rgba(176, 199, 198, 0.849) 70%);
+    margin-left: 8.73em;
+    margin-top: 7em;
+    border:solid .09em rgba(255, 250, 250, 0.342);
+    border-radius: 18% 0% 18% 0%;
+    float: left;
+}
+.sh{
+    background-image: radial-gradient( rgba(167, 36, 36, 0.377) 10%, rgba(94, 169, 255, 0.411) 30%, rgba(82, 143, 255, 0.247) 70%);
+}
+.s-logo{
+    text-align: center;
+    margin: auto;
+    margin-top: .9em;
+    color: rgb(216, 200, 200);
+    text-shadow: 0.03em 0.03em 0em black, 0.03em -0.03em 0em black;
+}
+/* __________________________________________ */
+
+
+.ss-body{
+    background-color: burlywood;
+    font-family: 'Tajawal', sans-serif;
+}
+.ss-header{
+    height: 5.4em;
+    background-color: brown;
+}
+.ss-back{
+    padding: .3em .9em;
+    border-radius: 45%;
+    color: rgb(255, 255, 255);
+    background-color: coral;
+    text-shadow: .03em .03em .03em black;
+}
+.ss-back:hover{
+    padding: .3em .9em;
+    border-radius: 41%;
+    background-color: chocolate;
+}
+.ss-back:active{
+    border-radius: 43%;
+    background-color: blue;
+}
+.ss-logo{
+    color: aliceblue;
+    text-shadow: .07em .07em .03em rgb(68, 14, 14), .03em -.07em .07em rgb(82, 16, 16) ;
+    float: right;
+    margin-top: 2.1em;
+    margin-right: 1em;
+}
+.ss-text{
+    font-size: 1.08em;
+    color: rgb(255, 255, 255);
+    background-color: dimgrey;
+    text-align: right;
+    direction: rtl;
+    width:72%;
+    padding: 1em;
+    margin-right: 9em;
+    margin-left: 12em;
+    text-shadow: .03em .03em .03em black, .03em -.03em .03em black ;
+}
+/* _________________________________________________________________________________ */
+
+.s-back{
+    width: 3em;
+    height: 3em;
+    color: rgb(191, 255, 242);
+    background-color: cadetblue;
+    border-radius: 50%;
+    position: fixed;
+    top: 79%;
+    left: 46%;
+}
+
+.p-im-1{
+    width: 30%;
+    height: 10em;
+}
+.p-im-2{
+    width: 60%;
+    height: 12em;
+}
+.p-im-3{
+    width: 81%;
+    height: 24em;
+}
+.p-im-4{
+    width: 72%;
+    height: 18em;
+}
+
+.posts {
+    width: 72%;
+    padding: .1em 1em;
+    color: aliceblue;
+    background-color: rgba(0, 130, 216, 0.527);
+    margin: auto;
+    margin-bottom: 1.2em;
+    margin-top: .3em;
+    direction: rtl;
+    border-radius: 3em 2em 1em 0em;
+    outline: double .3em rgb(150, 177, 179);
+}
+
+
+
+
+/* ------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+
+
+@media only screen and (max-width: 600px) {
+    .ro-users {
+        width: 14%;
+        height: 43.5em;
+        border: .9em solid rgb(0, 140, 255);
+
+    }
+    .users {
+        width: 100%;
+        height: 4.5em;
+    }
+    .ro-main {
+        width: 77.6%;
+        height: 45.3em;
+    }
+    .ro-lab {
+        width: 81%;
+        height: 37em;
+    }
+    .set {
+        margin-top: 0.642em;
+        margin-left: 0em;
+        font-size: x-small;
+        width: 100%;
+        height: 4.5em;
+    }
+    .set:hover {
+        width: 98%;
+        height: 4.5em;
+    }
+    .ro-set {
+        width: 13%;
+        height: 37em;
+    }
+    .ro-type {
+        font-size: .9em;
+        width: 41%;
+    }
+    .ro-send {
+        font-size: .7em;
+        width: 14%;
+    }
+    .ro-send:hover {
+        font-size: .7em;
+        width: 14%;
+    }
+   
+    .circle-l {
+        width: 54%;
+        height: 14em;
+        right: 0%;
+        top: 30%;
+    }
+    .circle-r {
+        width: 54%;
+        height: 14em;
+        left: 0%;
+        top: 30%;
+    }
+    .Neptune {
+        margin-left: 5em;
+    }
+    .Uranus {
+        margin-top: 0em;
+    }
+    .arch {
+        left: 65%;
+        top: 55.8%;
+    }
+    .Saturn {
+        margin-top: 0em;
+    }
+    .f-sec-l {
+        margin-left: 0em;
+        height: 41em;
+    }   
+    .f-type {
+        margin-left: 3em;
+    }
+    .post {
+        margin-top: 0em;
+    }
+    .type {
+        font-size: small;
+        width: 90%;
+        height: 12em;
+    }
+    .f-board {
+        width: 63%;
+        height: 12.9em;
+    }
+    .f-go {
+        font-size: .5em;
+        margin-left: 0%;
+    }
+    .s-shape {
+        margin-left: 2.1em;
+    }
+    .s-title {
+        margin-left: 2.3em;
+    }
+    .ss-text {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+    .message{
+        color: rgb(255, 255, 255);
+        font-size: large;
+        direction: rtl;
+       padding:0.3em 0.5em;
+    }
+    .bg-msg{
+        width: auto;
+        background-color:rgba(26, 9, 17, 0.37);
+        margin-right: 0em;
+        margin-left: 1em;
+        border-radius: 1em;
+    }
+    #user{
+        width: 5em;
+        top: 8.1%;
+        left: 72%;
+    }
+
+    }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Kufam&family=Mada:wght@200&family=Noto+Sans+Arabic:wght@100&family=Press+Start+2P&family=Tajawal:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="friend.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooz</title>
+</head>
+<body class="ro-body" id="body">
+    <main>
+
+        <iframe src="users.html" frameborder="0" class="ro-users" id="users"></iframe>
+
+    <div class="ro-main" id="main">
+        <h3 class="logo">Rooz | روز</h3> <p class="online" id="online">نشط الآن</p>
+        <iframe src="lab.html" frameborder="0" class="ro-lab" id="lab"></iframe>
+        <div class="ro-set" id="setLab">
+            <div style="height:3em;width: 81%; background-color: rgb(0, 140, 255);margin: auto;border-radius: 3em 3em 0.3em 0.3em;" id="cover1"></div>
+            <button id="b1" class="set">الاعدادت</button><hr>
+            <button id="b2" class="set" onclick="location.assign('forum.html')">المنتدى</button><hr>
+            <button id="b3" class="set" onclick="location.assign('friend.html')">رجوع</button><hr>
+            <button id="b4" class="set" onclick="themes()">ثيمات</button><hr>
+            <div class="ro-theme" id="theme">
+                <h3 id="planet" class="ro-color">كواكب</h3>
+                <h3 id="natur" class="ro-color">طبيعة</h3>
+                <h3 id="deser" class="ro-color">صحراء</h3>
+                <h3 id="sno" class="ro-color">ثلوج</h3>
+                <h3 id="mar" class="ro-color">ماري</h3>
+            </div>
+            <button id="b5" class="set">معلومات</button><hr>
+            <button id="b6" class="set">المحتوى</button><hr>
+            <button id="b7" class="set">الصور</button>
+            <div style="height:3em;width: 81%; background-color: rgb(0, 140, 255);margin: auto;border-radius: 0.3em 0.3em 3em 3em;" id="cover2"></div>
+        </div>
+        <form id="postForm">
+            <input id="text" type="text" name="msg" class="ro-type" required>
+            <button id="ba" type="submit" class="ro-send">ارسال</button>
+            <input type="text" name="user" id="user" required>
+            <button id="bb" class="ro-send" type="button">ادراج</button>
+            <button id="bc" class="ro-send" type="button">فيضان</button>
+        </form>
+    </div>
+
+    </main>
+
+    <script src="rooz.js"></script>
+</body>
+</html>
