@@ -186,9 +186,9 @@ document.body.onload =()=>{
 
 
 let user = document.getElementById("user");
-localStorage.setItem("user", user.value);
 user.value = localStorage.getItem("user");
 
+localStorage.setItem("user", user.value);
   
 
 let postForm = document.getElementById("postForm");
