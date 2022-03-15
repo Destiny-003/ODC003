@@ -198,7 +198,7 @@ form.preventDefault();
 
 let formData = new FormData(postForm);
 
-fetch("http://destinyc.rf.gd/appApi/add.php", {
+fetch("appApi/add.php", {
 method : "POST",
 body : formData
 }).then(response => response.json()).then(data =>{
