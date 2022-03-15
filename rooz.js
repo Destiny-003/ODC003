@@ -181,13 +181,13 @@ document.body.onload =()=>{
     if (localStorage.getItem("color") == "mary") {
         mary();
     }
-    user.value = localStorage.getItem("firstname");
+    user.value = localStorage.getItem("user");
 }
 let user = document.getElementById("user");
 
-user.value = localStorage.getItem("firstname");
+user.value = localStorage.getItem("user");
        setInterval(()=>{
-    user.value = localStorage.getItem("firstname");
+    user.value = localStorage.getItem("user");
 });
   
 
@@ -197,7 +197,7 @@ form.preventDefault();
 
 let formData = new FormData(postForm);
 
-fetch("http://localhost/api/rooz/add.php", {
+fetch("http://destinyc.rf.gd/appApi/add.php", {
 method : "POST",
 body : formData
 }).then(response => response.json()).then(data =>{
